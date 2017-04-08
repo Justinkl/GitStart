@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Newest_DinoRobot.ma
-//Last modified: Sat, Apr 08, 2017 01:55:16 PM
+//Last modified: Sat, Apr 08, 2017 02:00:02 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,14 +13,14 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "41261B40-974B-087A-F456-31A33BB9442C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 12.459642455298003 9.8460432307648027 11.406949075111498 ;
-	setAttr ".r" -type "double3" -9.938352752218016 -1784.9999999991526 -4.115940627780012e-16 ;
+	setAttr ".t" -type "double3" 0.89398874340825429 7.5348762754980578 38.024395161483405 ;
+	setAttr ".r" -type "double3" -4.5383527519497759 -1807.0000000007242 -1.5020812931196584e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "71F56AA0-F64F-C534-9ECC-B08A45D94329";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 20.73670967806283;
+	setAttr ".coi" 47.00809713212108;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -9668,7 +9668,7 @@ createNode polyTweak -n "polyTweak25";
 		 0.19737925 -0.074848242 -0.45799711 0.047682777 0.074848235 -0.45799711 0.047682777
 		 -0.074848242;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "2A974BB8-F844-55F9-8677-A79E96772E81";
+	rename -uid "8BA59A28-8B47-DBBD-62B9-DD81140C9E68";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -167.85713618709957 -208.33332505491083 ;
